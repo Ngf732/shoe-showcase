@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding:0;
+}
+
+.all-body{
+    background-color: peachpuff;
+}
+
+.nav-bar {
+    background-color: #a26100;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-itemlist a {
+    text-decoration: none;
+    background-color: white;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+    transition: all;
+    transition: ease-in-out 300ms;
+}
+.nav-itemlist a:hover {
+    box-shadow: 1px 2px 5px #434342;
+    scale: 102%;
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: black !important;
+    color:white;
+}
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    color:white
+}
+
+
+.main-header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-image {
+    border-radius: 8px;
+    width: 301px;
+    transition: all;
+    transition: ease-in-out 200ms;
+    border :1px solid rgb(191, 191, 191);
+}
+
+.hero-image:hover{
+    box-shadow: 1px 3px 10px black;
+    scale: 103%;
+    cursor: pointer;
+}
+
+.about{
+   margin-top: 20px;
+   padding: 15px 30px;
+   font-size: 30px;
+   background-color: blue;
+   color: white;
+   border: none;
+   border-radius: 30px;
+   box-sizing: border-box;
+   text-align: center;
+   justify-content: center;
+}
+
+.about-header {
+    background: red;
+    width: 10%;
+    text-align:  center;
+    margin: 10px auto;
+    border-radius: 12px;
+}

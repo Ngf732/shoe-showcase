@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+        <div class="logo">Logo</div>
+        <div class="nav-itemlist">
+          <a  href="index.html">HOME</a>
+          
+          <a href="products.html">PRODUCTS</a>
+          
+          <a href="about.html"> ABOUT</a>
+          
+          <a class="active" href="contact.html">CONTACT</a>
+      </nav>
+
+    <h1>Contact Us</h1>
+    <hr />
+    <b
+      >If you have any questions, feel free to reach out to us. Fill in the form
+      below and we'll get back to you as soon as possible.</b
+    >
+    <br />
+    <br />
+    <a href="index.html">HOME</a>
+    <br />
+    <br />
+    <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <br />
+      <input type="text" id="name" name="name" required />
+      <br />
+      <br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required />
+      <br />
+      <br />
+      <label for="subject">Subject:</label><br />
+      <input type="text" id="subject" name="subject" />
+      <br />
+      <br />
+      <label for="message">Message:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="30"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
